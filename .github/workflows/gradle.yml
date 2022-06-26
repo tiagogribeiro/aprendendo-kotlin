@@ -32,5 +32,4 @@ jobs:
       uses: gradle/gradle-build-action@v2
       with:
         arguments: test
-        build-root-directory: gradle/wrapper
-        gradle-executable: /gradle/wrapper
+        gradle-version: 7.4.2
