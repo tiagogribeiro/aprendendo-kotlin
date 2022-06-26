@@ -19,4 +19,12 @@ class ForIntervals {
             println(a)
         }
     }
+
+    fun forItethanisingAMap() {
+        val list = arrayListOf("10", "11", "12")
+        for ((index, element) in list.withIndex()){
+            println("$index: $element")
+        }
+    }
+
 }

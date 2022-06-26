@@ -24,4 +24,11 @@ internal class ForIntervalsTest {
         interador.forWithCaracters()
         assertTrue(true)
     }
+
+    @Test
+    internal fun `deve imprimir os valores do mapa`() {
+        val interador = ForIntervals()
+        interador.forItethanisingAMap()
+        assertTrue(true)
+    }
 }
