@@ -1,4 +1,4 @@
-package setget
+package usesetget
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
