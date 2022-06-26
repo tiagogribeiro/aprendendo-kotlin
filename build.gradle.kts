@@ -16,8 +16,10 @@ dependencies {
     testImplementation(kotlin("test"))
 }
 
+
 tasks.test {
     useJUnitPlatform()
+    testLogging.showStandardStreams = true
 }
 
 tasks.withType<KotlinCompile>() {
@@ -25,5 +27,5 @@ tasks.withType<KotlinCompile>() {
 }
 
 application {
-    //mainClass.set("MainKt")
+    mainClass.set("MainKt")
 }
