@@ -1,4 +1,4 @@
-package usewhen
+package br.com.aprendendo.usewhen
 
 /**
  * Observar que no Kotlin é preciso colocar "class" na frente da enum. (Caso raro que foi adicionado

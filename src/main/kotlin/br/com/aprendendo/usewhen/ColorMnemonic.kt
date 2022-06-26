@@ -1,4 +1,4 @@
-package usewhen
+package br.com.aprendendo.usewhen
 
 class ColorMnemonic {
 

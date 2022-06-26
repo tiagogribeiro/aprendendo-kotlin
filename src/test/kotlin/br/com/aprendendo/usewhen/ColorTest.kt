@@ -1,4 +1,4 @@
-package usewhen
+package br.com.aprendendo.usewhen
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test

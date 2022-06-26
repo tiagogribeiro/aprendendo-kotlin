@@ -1,4 +1,4 @@
-package usersmartcast
+package br.com.aprendendo.usersmartcast
 
 import java.lang.IllegalArgumentException
 

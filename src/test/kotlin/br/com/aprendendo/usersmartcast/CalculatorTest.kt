@@ -1,4 +1,4 @@
-package usersmartcast
+package br.com.aprendendo.usersmartcast
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test

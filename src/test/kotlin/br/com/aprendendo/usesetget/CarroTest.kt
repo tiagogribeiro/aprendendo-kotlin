@@ -1,4 +1,4 @@
-package usesetget
+package br.com.aprendendo.usesetget
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test

@@ -1,4 +1,4 @@
-package useforintervals
+package br.com.aprendendo.useforintervals
 
 class ForIntervals {
 

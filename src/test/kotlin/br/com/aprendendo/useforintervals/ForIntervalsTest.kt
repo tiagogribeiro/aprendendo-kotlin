@@ -1,4 +1,4 @@
-package useforintervals
+package br.com.aprendendo.useforintervals
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test

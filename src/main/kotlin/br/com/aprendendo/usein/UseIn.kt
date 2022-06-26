@@ -1,4 +1,4 @@
-package usein
+package br.com.aprendendo.usein
 
 class UseIn {
 
