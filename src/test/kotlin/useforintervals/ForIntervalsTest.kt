@@ -17,4 +17,11 @@ internal class ForIntervalsTest {
         interador.forWithIntervalAndStepsTwo()
         assertTrue(true)
     }
+
+    @Test
+    internal fun `deve imprimir um laco de A a F`() {
+        val interador = ForIntervals()
+        interador.forWithCaracters()
+        assertTrue(true)
+    }
 }

@@ -13,4 +13,10 @@ class ForIntervals {
             println(a)
         }
     }
+
+    fun forWithCaracters() {
+        for (a in 'A'..'F'){
+            println(a)
+        }
+    }
 }
