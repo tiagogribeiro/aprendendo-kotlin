@@ -1,3 +1,3 @@
-class MainKt {
-
-}
+ fun main(args: Array<String>){
+        println("Hello")
+    }
