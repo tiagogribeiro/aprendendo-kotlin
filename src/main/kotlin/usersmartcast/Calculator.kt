@@ -6,6 +6,8 @@ class Calculator {
 
     /**
      * O tipo da variável é determinada pelo is anterior ao retorno.
+     *
+     * Dentro do bloco do if, o expr o compilador já saber que é do tipo Num ou Sum.
      */
     fun calculate(expr: Expression): Int {
 
