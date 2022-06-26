@@ -30,4 +30,26 @@ class ColorMnemonic {
             Color.INDIGO -> "In"
             Color.VIOLET -> "Vain"
     }
+
+    /**
+     * when também aceita objetos, no exemplo um lista (Set).
+     */
+    fun mix(corUm: Color, corDois: Color): Color {
+        return when(setOf(corUm, corDois)){
+            setOf(Color.RED, Color.YELLOW) -> Color.ORANGE
+            setOf(Color.YELLOW, Color.BLUE) -> Color.GREEN
+            else -> {Color.RED}
+        }
+    }
+
+    /**
+     * When sem argumentos.
+     */
+    fun mixOptimized(corUm: Color, corDois: Color): Color {
+        return when{
+            (corUm == Color.RED && corDois == Color.YELLOW) -> Color.ORANGE
+            (corUm == Color.YELLOW && corDois == Color.BLUE) -> Color.GREEN
+            else -> {Color.RED}
+        }
+    }
 }
