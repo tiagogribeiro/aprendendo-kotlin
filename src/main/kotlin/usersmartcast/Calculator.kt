@@ -22,4 +22,11 @@ class Calculator {
         throw IllegalArgumentException("Unknow expression")
     }
 
+
+    fun calculateExpression(expr: Expression) = when(expr) {
+        is Num -> expr.value
+        is Sum -> calculate(expr.left) + calculate(expr.right)
+        else -> throw IllegalArgumentException("Unknow expression")
+    }
+
 }

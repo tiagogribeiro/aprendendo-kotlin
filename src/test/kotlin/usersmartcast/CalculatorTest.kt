@@ -12,8 +12,20 @@ internal class CalculatorTest {
     }
 
     @Test
+    internal fun `deve retornar resultado do numero adicionado ao calculadora (when)`() {
+        val calculator = Calculator()
+        assertEquals(1, calculator.calculateExpression(Num(1)))
+    }
+
+    @Test
     internal fun `deve retornar a soma de dois numero`() {
         val calculator = Calculator()
         assertEquals(2, calculator.calculate(Sum(Num(1), Num(1))))
+    }
+
+    @Test
+    internal fun `deve retornar a soma de dois numero (when)`() {
+        val calculator = Calculator()
+        assertEquals(2, calculator.calculateExpression(Sum(Num(1), Num(1))))
     }
 }
